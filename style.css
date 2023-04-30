@@ -46,3 +46,21 @@ body{
     outline: none;
     cursor: pointer;
  }
+ .btn:hover{
+    border-color: aqua;
+ }
+ .start-btn,
+ .next-btn{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    cursor: pointer;
+ }
+ .controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .hide{
+    display: none;
+ }
